@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class GitDemo {
-    @GetMapping("/good")
+    @GetMapping("/test")
     public  String  gitDemo(){
         return "你是谁";
     }
